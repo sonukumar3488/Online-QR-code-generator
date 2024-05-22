@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #45ced8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 450px;
+  width: 100%;
+  padding: 20px;
+  margin: 100px auto;
+  background-color: #e67c7c;
+  border-radius: 8px;
+  box-shadow: 0 2px 3px rgba(36, 216, 42, 0.3);
+}
+
+.container h1 {
+  font-palette: 18px;
+  background: #485649;
+  font-weight: 300;
+  padding: 25px 0;
+  margin: -20px -20px 20px -20px;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+  color: rgb(175, 224, 125);
+}
+
+.container form input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #dd4848;
+  height: 45px;
+  border-radius: 3px;
+  padding: 0 10px;
+  background: #fff;
+  margin-bottom: 0.7rem;
+  font-size: 18px;
+}
+
+.container form button {
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 45px;
+  border-radius: 3px;
+  padding: 0 10px;
+  background: #2031cc;
+  margin-bottom: 0.7rem;
+  font-size: 18px;
+  color: rgb(228, 41, 191);
+}
+
+.container form #qrcode-container {
+  display: none;
+  justify-content: center;
+}
+
+.container form .qrcode {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.container form .qrcode img {
+  margin: 0 auto;
+  box-shadow: 0 2px 3px rgba(142, 142, 213, 0.25);
+  padding: 4px;
+}
+#sonu{
+  text-align: center;
+  margin-bottom: 500px;
+}
